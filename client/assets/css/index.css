@@ -1,0 +1,80 @@
+
+/* colors:  */
+/* 
+#9bc400
+#8076a3
+#f9c5bd
+#7c677f
+*/
+
+header, footer {
+  position: fixed;
+  text-align: center;
+  padding: .8rem;
+  background-color: #D1CFDD;
+  left: 0;
+  right: 0;
+}
+
+body {
+  color: #3E3854;
+  margin: 7rem 0 4.1rem 0;
+}
+
+header {
+  box-shadow: 0 8px 6px -6px #3E3854;
+  top: 0;
+}
+
+main {
+  text-align: center;
+}
+
+main > h2 {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #3E3854;
+}
+
+div.profile-card {
+  cursor: pointer;
+  box-shadow: 0 0 8px 0 #3E3854;
+  background-color: #F6D9CE;
+  display: flex;
+  max-width: 28rem;
+  margin: 0 auto;
+  padding: 1rem;
+  border-radius: .2rem;
+  border-bottom: 6px solid #3E3854;
+}
+
+div.profile-card:hover {
+  box-shadow: 0 0 12px 0 #3E3854;
+}
+
+div.profile-card > * {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+div.profile-card > img {
+  height: 5rem;
+  border-radius: 50%;
+}
+
+div.profile-card > p {
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 1rem 0 1rem 1rem;
+}
+
+footer {
+  box-shadow: 0 -8px 6px -6px #3E3854;
+  font-size: .8rem;
+  bottom: 0;
+}

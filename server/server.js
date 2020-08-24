@@ -10,9 +10,13 @@ process.env.NODE_ENV === 'production'
   : app.use(morgan('dev'));
 
 // Tell node where to serve static files from
-app.use(express.static(path.join(__dirname, '../client')));
+app.use(express.static(path.join(__dirname, '../client/assets')));
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, '../client/index.html'));
+});
+
+app.get('/profiles/karsten', (req, res) => {
+  res.sendFile(path.join(__dirname, '../client/karsten.html'));
 });
 
 app.use(function (req, res) {
