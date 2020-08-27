@@ -3,6 +3,7 @@ const morgan = require('morgan');
 const app = express();
 const PORT = process.env.PORT || 9001;
 const path = require('path');
+const api = require('./api');
 
 // Middleware:
 process.env.NODE_ENV === 'production'
@@ -15,8 +16,15 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, '../client/index.html'));
 });
 
+// API routes
+app.use('/api', api);
+
 app.get('/profiles/karsten', (req, res) => {
   res.sendFile(path.join(__dirname, '../client/karsten.html'));
+});
+
+app.get('/profiles/tom', (req, res) => {
+  res.sendFile(path.join(__dirname, '../client/tom.html'));
 });
 
 app.use(function (req, res) {

@@ -46,7 +46,7 @@ div.profile-card {
   background-color: #F6D9CE;
   display: flex;
   max-width: 28rem;
-  margin: 0 auto;
+  margin: 1rem auto;
   padding: 1rem;
   border-radius: .2rem;
   border-bottom: 6px solid #3E3854;
