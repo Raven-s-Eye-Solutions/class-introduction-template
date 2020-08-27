@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(/images/beach.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: rgba(88, 172, 217, .1);
+  background-blend-mode: overlay;
+}
+div#loading > img {
+  height: 4rem;
+  width: auto;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 768px;
+}
+
+.container > .profile-img {
+  height: 400px;
+  width: auto;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.profile-name {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.profile-bio {
+  max-width: 24rem;
+  font-weight: 600;
+  line-height: 2rem;
+  font-size: 1.4rem;
+}
+
+.profile-name,
+.profile-bio {
+  text-align: center;
+}
