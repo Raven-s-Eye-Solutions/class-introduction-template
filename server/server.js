@@ -27,6 +27,10 @@ app.get('/profiles/tom', (req, res) => {
   res.sendFile(path.join(__dirname, '../client/tom.html'));
 });
 
+app.get('/profiles/jon', (req, res) => {
+  res.sendFile(path.join(__dirname, '../client/jon.html'));
+});
+
 app.use(function (req, res) {
   res.status(418).send("I'm a teapot.");
 });
