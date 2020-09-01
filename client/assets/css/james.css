@@ -1,0 +1,25 @@
+h2 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+body {
+    color: cornsilk;
+    text-align: left;
+    background: url(../images/Edited\ beach\ milky\ way.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+}
+.card {
+    background: transparent;
+}
+.card-body {
+    text-align: center;
+}
+.icon{
+    text-align: center;
+}
+footer {
+    text-align: center;
+}
