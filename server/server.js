@@ -31,8 +31,12 @@ app.get('/profiles/jon', (req, res) => {
   res.sendFile(path.join(__dirname, '../client/jon.html'));
 });
 
-app.get('/profiles/james',(req, res) => {
+app.get('/profiles/james', (req, res) => {
   res.sendFile(path.join(__dirname, '../client/james.html'));
+});
+
+app.get('/profiles/sammantha', (req, res) => {
+  res.sendFile(path.join(__dirname, '../client/sammantha.html'));
 });
 
 app.use(function (req, res) {
