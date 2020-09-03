@@ -1,7 +1,10 @@
 h2 {
     font-family: 'Oswald', sans-serif;
-    text-align: center;
+    font-size: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
+
 body {
     color: cornsilk;
     text-align: left;
@@ -9,17 +12,15 @@ body {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    
 
 }
 .card {
     background: transparent;
+    font-size: 1.7rem;
 }
-.card-body {
+
+.unify {
     text-align: center;
-}
-.icon{
-    text-align: center;
-}
-footer {
-    text-align: center;
+    padding-bottom: 3rem;
 }
