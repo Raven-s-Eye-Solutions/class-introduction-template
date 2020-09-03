@@ -12,9 +12,9 @@ body {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    
-
+    background-size: cover;
 }
+
 .card {
     background: transparent;
     font-size: 1.7rem;
