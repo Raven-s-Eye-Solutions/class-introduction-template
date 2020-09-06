@@ -1,0 +1,28 @@
+.title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  text-align: center;
+}
+
+body {
+  color: cornsilk !important;
+  text-align: left;
+  background: url(/images/Edited\ beach\ milky\ way.jpg) no-repeat center center
+    fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+div.card {
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 1.7rem;
+}
+
+.unify {
+  text-align: center;
+  padding-bottom: 3rem;
+}
