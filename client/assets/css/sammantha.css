@@ -1,0 +1,13 @@
+html, body {
+    height: 100%
+}
+
+body {
+    background-image: url('../images/wave.jpg');
+}
+
+#greeting {
+    font-size: 60px;
+    background-color: #88FC93;
+    margin: 30px;
+}
