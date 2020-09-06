@@ -4,11 +4,10 @@
   padding-top: 3rem;
   padding-bottom: 3rem;
   text-align: center;
-  color: cornsilk;
 }
 
 body {
-  color: cornsilk;
+  color: cornsilk !important;
   text-align: left;
   background: url(/images/Edited\ beach\ milky\ way.jpg) no-repeat center center
     fixed;
@@ -21,11 +20,9 @@ body {
 div.card {
   background-color: rgba(0, 0, 0, 0);
   font-size: 1.7rem;
-  color: cornsilk;
 }
 
 .unify {
-  color: cornsilk;
   text-align: center;
   padding-bottom: 3rem;
 }
