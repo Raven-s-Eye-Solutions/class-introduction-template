@@ -33,10 +33,12 @@ function addTomToDom (data) {
   img.setAttribute('src', data.img);
   div.appendChild(img);
 
-  const bio = document.createElement('p');
-  bio.classList.add('profile-bio');
-  bio.innerText = data.bio;
-  div.appendChild(bio);
+  data.bio.forEach(para => {
+    const bio = document.createElement('p');
+    bio.classList.add('profile-bio');
+    bio.innerText = para;
+    div.appendChild(bio);
+  });
 
   document.body.appendChild(div);
 
