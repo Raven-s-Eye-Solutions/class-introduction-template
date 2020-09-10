@@ -1,0 +1,19 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    width: 25%;
+    height: 25%;
+  }
+
+
+  .paragraph {
+    margin-top: 2%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 30%;
+    font-size: large;
+  }
