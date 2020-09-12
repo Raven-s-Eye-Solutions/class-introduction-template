@@ -1,0 +1,33 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  width: 25%;
+  height: 25%;
+}
+.body {
+  background-image: url("/images/madisonbackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.profile {
+  width: 25%;
+  height: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+
+.paragraph {
+  margin-top: 2%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: 30%;
+  font-size: large;
+  background-color: white;
+}
