@@ -10,7 +10,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-color: rgba(95, 143, 150, 0.5);
+  background-color: rgba(161, 160, 96, 0.5);
   background-blend-mode: overlay;
 }
 
@@ -42,9 +42,13 @@ body {
 }
 
 .text-background {
+  background-color: rgb(189, 189, 189);
+  opacity: 0.8;
   text-align: center;
-  margin-top: 3rem;
-  padding: 1rem 4rem 1rem 4rem;
+  /* margin-top: 3rem; */
+  padding: 1rem;
+  margin: 3rem 2rem 3rem 2rem;
+  border-radius: 40px;
 }
 
 
@@ -53,12 +57,12 @@ body {
 }
 
 div, p {
-  color:whitesmoke;
+  color: black;
   font-size: 1.3rem;
 }
 
 footer {
-  margin-top: 12rem;
+  margin-top: 10rem;
   padding: 2rem;
   text-align: center;
   color: white;
@@ -67,5 +71,5 @@ footer {
 
 a {
   text-decoration: none;
-  color: rgb(79, 173, 150);
+  color: rgb(23, 114, 54);
 }
