@@ -38,6 +38,9 @@ app.get('/profiles/james', (req, res) => {
 app.get('/profiles/sammantha', (req, res) => {
   res.sendFile(path.join(__dirname, '../client/sammantha.html'));
 });
+app.get('/profiles/dave', (req, res) => {
+  res.sendFile(path.join(__dirname, '../client/dave.html'));
+});
 
 app.get('/profiles/madison', (req, res) => {
   res.sendFile(path.join(__dirname, '../client/madison.html'));
