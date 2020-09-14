@@ -9,4 +9,7 @@
 5. Push up your branch, and then submit a Pull Request on Github. 
 6. Either Karsten or Jon will review your code and approve it or request changes. Once it's approved, it'll be published live to serve as an introduction for the rest of the team!!
 
-You can check out the live site at: https://btb-2020.herokuapp.com/
+You can check out the live site at: https://btb-2020.herokuapp.com
+
+Hello world!
+
